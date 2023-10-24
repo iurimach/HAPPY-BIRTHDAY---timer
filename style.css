@@ -1,0 +1,13 @@
+.color-changing-text {
+    font-size: 36px;
+    font-weight: bold;
+    animation: changeColor 1s linear infinite;
+}
+
+@keyframes changeColor {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: orange; }
+    100% { color: purple; }
+}
